@@ -16,8 +16,8 @@ app.get("/:width/:height", (req: any, res: any) => {
 
   // Add text with the dimensions
   const text = `${width}x${height}`;
-  ctx.font = "100px Arial";
-  ctx.fillStyle = "#333";
+  ctx.font = "100px arial";
+  ctx.fillStyle = "#000";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
   ctx.fillText(text, width / 2, height / 2);
